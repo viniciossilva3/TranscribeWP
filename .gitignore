@@ -1,0 +1,8 @@
+__pycache__
+README.md.example
+requirements.txt.example
+src/data/audios/*
+src/data/videos/*
+venv
+.venv
+
