@@ -1,5 +1,6 @@
 <div align="center">
-<img  alt="Logo" src="https://github.com/viniciossilva3/TranscribeWP/assets/56976328/6985ec88-a424-418d-9a39-161e1adf5d28" width="800">
+<img  alt="Logo" src="https://github.com/viniciossilva3/TranscribeWP/assets/56976328/508b2d89-cfd4-4a27-878a-0b4911b0bde2" width="800">
+
 </div>
 
 <h1 align="center">TranscribeWP</h1>
