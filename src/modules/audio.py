@@ -113,11 +113,9 @@ def transcribe_audio_to_text(audio: str) -> str:
 
         # Transcribe the audio
         filename = os.path.basename(wav_file)
-        print(
-            f"{INFORMATION} Initializing the transcription of [{filename}].")
+        print(f"{INFORMATION} Initializing the transcription of [{filename}].")
 
         transcribed_text = r.recognize_google(audio, language='pt-BR')
-        # transcribed_text = r.recognize_google(audio, language='pt-BR')
 
         # Opens a file in writing mode and saves the trascribed text inside.
         basename = os.path.splitext(filename)
