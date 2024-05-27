@@ -2,8 +2,8 @@
 # main
 # /usr/bin/env python3
 
-from .modules.audio import extract_audio
-from .modules.video import download_channel, download_playlist, download_video
+# from .modules.audio import extract_audio, transcribe_audio_to_text
+# from .modules.video import download_channel, download_playlist, download_video
 
 
 def main():
@@ -21,10 +21,11 @@ def main():
     '''
 
     # Define the input video file name and output audio file
-    extract_audio(video="video.mp4", audio="audio.mp3")
-    download_video("")
-    download_playlist("")
-    download_channel("")
+    # extract_audio(video="video.mp4", audio="audio.mp3")
+    # download_video("")
+    # download_playlist("")
+    # download_channel("")
+    # transcribe_audio_to_text("interessante.wav")
 
 
 if __name__ == "__main__":

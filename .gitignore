@@ -3,6 +3,7 @@ README.md.example
 requirements.txt.example
 src/data/audios/*
 src/data/videos/*
+src/data/texts/*
 venv
 .venv
 

@@ -5,12 +5,10 @@
 import os
 import pathlib
 from pytube import Channel, Playlist, YouTube
-from .terminal import BOLD, ERROR, INFORMATION, SUCCESS
+from .terminal import ERROR, INFORMATION, SUCCESS
 
 PATH_DATA = pathlib.Path(__file__).parent.parent / "data"
 PATH_VIDEOS = pathlib.Path(__file__).parent.parent / "data" / "videos"
-
-print(BOLD)
 
 
 def download_video(url: str) -> None:

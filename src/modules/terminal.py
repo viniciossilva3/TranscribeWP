@@ -1,5 +1,5 @@
 """Module to provide colored terminals """
-# terminal
+# Terminal
 
 from colorama import init, Fore, Style
 init()
@@ -19,3 +19,6 @@ INFORMATION = f"{Style.BRIGHT}{Fore.BLUE}[{
 
 SUCCESS = f"{Style.BRIGHT}{Fore.GREEN}[{
     Fore.WHITE}*{Fore.GREEN}] SUCCESS {Fore.RESET}- "
+
+SAVED_IN = f"{Style.BRIGHT}{Fore.GREEN}[{
+    Fore.WHITE}*{Fore.GREEN}] SAVED IN {Fore.RESET}- "

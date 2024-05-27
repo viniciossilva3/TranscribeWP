@@ -1,6 +1,5 @@
 <div align="center">
 <img  alt="Logo" src="https://github.com/viniciossilva3/TranscribeWP/assets/56976328/508b2d89-cfd4-4a27-878a-0b4911b0bde2" width="800">
-
 </div>
 
 <h1 align="center">TranscribeWP</h1>
@@ -18,10 +17,10 @@ This is a Python project developed to download videos, extract audio from videos
 ## Features
 
 - [x] **Download a Youtube video:** Use the `download_video(url)` function to download a youtube video.
-- [x] **Download a Youtube playlist:** Use the `download_playlist(url)` function to download a youtube playlist.
+- [x] **Download a Youtube playlist:** Use the `download_playlist(url)` function to download a youtube playlist. (Waiting for pytube library update to make it work)
 - [x] **Download a Youtube video:** Use the `download_channel(url)` function to download a youtube channel video.
 - [x] **Extract audio from video:** Use the `extract_audio(video, audio)` function to extract audio from a video and save it to an audio file.
-- [ ] **Transcribe text:** Use the `transcribe_text(audio)` function to transcribe the audio to text.
+- [x] **Transcribe text:** Use the `transcribe_audio_to_text(audio)` function to transcribe the audio to text.
 - [ ] **Proofread and modify text:** Implement the functions needed to proofread and modify the text according to your needs.
 - [ ] **Search for image:** Implement the `search_image(theme)` function to find an image corresponding to the text theme.
 - [ ] **Publish to WordPress blog:** Use the `publish_to_blog(text, image)` function to publish the content to your WordPress blog.
@@ -36,7 +35,7 @@ This is a Python project developed to download videos, extract audio from videos
 
 1. Clone this repository:
    ```
-   git clone https://github.com/viniciossilva3/ExtraPy.git
+   git clone https://github.com/viniciossilva3/TranscribeWP.git
    ```
 2. Install the dependencies:
    ```
