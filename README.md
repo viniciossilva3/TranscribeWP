@@ -51,7 +51,7 @@ This is a Python project developed to download videos, extract audio from videos
    from .modules.video import download_video
    from .modules.video import download_playlist
    from .modules.video import download_channel
-   #from .modules.transcribe_text import transcribe_text
+   #from .modules.transcribe_audio_to_text import transcribe_audio_to_text
    #from .modules.proofread_text import proofread_text
    #from .modules.search_image import search_image
    #from .modules.publish_to_blog import publish_to_blog
@@ -64,7 +64,7 @@ This is a Python project developed to download videos, extract audio from videos
    audio = extract_audio("video.mp4", "audio.mp3")
 
    # Transcribe the audio to text
-   transcribed_text = transcribe_text(audio)
+   transcribed_text = transcribe_audio_to_text(audio)
 
    # Proofread and modify the text
    proofread_text = proofread_text(transcribed_text)
