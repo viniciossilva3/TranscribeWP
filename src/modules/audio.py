@@ -49,7 +49,7 @@ def extract_audio(video: str, audio: str) -> None:
 
         # Define the input video file and output audio file
         mp4_file = f"{PATH_VIDEOS}/{video}"
-        mp3_file = f"{PATH_AUDIOS}/{audio}"
+        wav_file = f"{PATH_AUDIOS}/{audio}"
 
         # Load the video clip
         video_clip = VideoFileClip(mp4_file)
@@ -58,17 +58,18 @@ def extract_audio(video: str, audio: str) -> None:
         audio_clip = video_clip.audio
 
         # Write the audio to a separate file
-        audio_clip.write_audiofile(os.path.join(PATH_AUDIOS, mp3_file))
-        # audio_clip.write_audiofile(os.path.join("audios", mp3_file))
+        audio_clip.write_audiofile(os.path.join(PATH_AUDIOS, wav_file))
+        # audio_clip.write_audiofile(os.path.join("audios", wav_file))
 
         # Close the video and audio clips
         audio_clip.close()
         video_clip.close()
 
-        print(f"{ALERT} Audio extraction from {video} successful!")
-        print(f"{INFORMATION} Audio extraction from {video} successful!")
-        print(f"{ERROR} Audio extraction from {video} successful!")
         print(f"{SUCCESS} Audio extraction from {video} successful!")
+
+        saved_in = f"[src/data/audios/{audio}]"
+        print(f"{SAVED_IN} The extracted audio was saved in {saved_in}")
+
     except SuccessError as e:
         print(f"\n{ERROR} An error occurred while extracting audio: {e}")
 
@@ -140,7 +141,7 @@ def transcribe_audio_to_text(audio: str) -> str:
         # Show message on terminal for a success execution
         print(f"{SUCCESS} Audio extraction from [{filename}] successful!")
 
-        saved_in = f"[src/data/text/{output_file}]"
+        saved_in = f"[src/data/texts/{output_file}]"
         print(f"{SAVED_IN} The transcribed text was saved in {saved_in}")
 
         # Show a message with a example of trascribed text

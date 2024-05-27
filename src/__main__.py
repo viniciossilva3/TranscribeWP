@@ -21,7 +21,7 @@ def main():
     '''
 
     # Define the input video file name and output audio file
-    # extract_audio(video="video.mp4", audio="audio.mp3")
+    # extract_audio(video="video.mp4", audio="audio.wav")
     # download_video("")
     # download_playlist("")
     # download_channel("")

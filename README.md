@@ -27,9 +27,12 @@ This is a Python project developed to download videos, extract audio from videos
 
 ## Requirements
 
-- Python 3.x
+- [Python 3.x](https://www.python.org/downloads/)
 - Packages:
-  - moviepy
+  - [moviepy](https://pypi.org/project/moviepy/)
+  - [pytube](https://pytube.io/)
+  - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+  - [colorama](https://pypi.org/project/colorama/)
 
 ## Installation
 
@@ -61,10 +64,19 @@ This is a Python project developed to download videos, extract audio from videos
 
    ```python
    # Extract audio from a video
-   audio = extract_audio("video.mp4", "audio.mp3")
+   audio = extract_audio("video.mp4", "audio.wav")
+
+   # Download a Youtube Video
+   download_video("url-your-video-here")
+
+   # Downlaod a Youtube Playlist
+   download_playlist("url-your-playlist-here")
+
+   # Downlaod all videos from a Youtube Channel
+   download_channel("url-your-channel-here")
 
    # Transcribe the audio to text
-   transcribed_text = transcribe_audio_to_text(audio)
+   transcribed_text = transcribe_audio_to_text("audio.wav")
 
    # Proofread and modify the text
    proofread_text = proofread_text(transcribed_text)
@@ -84,4 +96,6 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 This project is licensed under the [MIT License](LICENSE).
 
----
+# Author :man_technologist:
+
+## Feito por **Vinícios** meu :point_right: [Linkedin](http://linkedin.com/in/viniciossilva3)
