@@ -14,7 +14,7 @@ numpy==1.26.4
 pillow==10.3.0
 proglog==0.1.10
 pytube==15.0.0
-requests==2.32.2
+requests==2.32.4
 setuptools==78.1.1
 tqdm==4.66.4
 typing_extensions==4.11.0
