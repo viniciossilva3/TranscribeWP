@@ -15,7 +15,7 @@ pillow==12.3.0
 proglog==0.1.10
 pytube==15.0.0
 requests==2.33.0
-setuptools==78.1.1
+setuptools==83.0.0
 tqdm==4.66.4
 typing_extensions==4.11.0
 urllib3==2.7.0
